@@ -4,37 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./style.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <h1 class="header">Odin Recipes</h1>
 
-    <img src="images/chickenTikkaMasala.jpg" alt="Chicken Tikka Masala" width="350" height="250">
+    <img class="image" src="images/chickenTikkaMasala.jpg" alt="Chicken Tikka Masala" width="350" height="250">
+    <div id="article-content">
     <h3>
-        <p>Chicken tikka masala is a dish consisting of roasted marinated chicken chunks <em>(chicken tikka)</em> in a spiced sauce. The sauce is usually creamy and orange-coloured. The dish was first offered by British cooks of south Asian origin and subsequently gained popularity at restaurants around the world.</p>
+        <p id="tikka-description" class="description">Chicken tikka masala is a dish consisting of roasted marinated chicken chunks <em>(chicken tikka)</em> in a spiced sauce. The sauce is usually creamy and orange-coloured. The dish was first offered by British cooks of south Asian origin and subsequently gained popularity at restaurants around the world.</p>
     </h3>
-
-    <h4>
-        Ingredients
-        <ul>
-            <li>Ginger</li>
-            <li>Garlic</li>
-            <li>Lemon Juice</li>
-            <li>Plain Yogurt</li>
-            <li>Chicken</li>
-            <li>Garam Masala</li>
-            <li>Tumeric</li>
-            <li>Chili Powder</li>
-            <li>Corriander</li>
-            <li>Salt</li>
-            <li>Cumin</li>
-            <li>Medium Onion</li>
-            <li>Vegitable Oil</li>
-            <li>Ghee</li>
-            <li>Heavy Creme</li>
-        </ul>
-    </h4>
-    <h4>
-        Steps
+        <div id="recipe-details">
+            <div id="recipe-details-content">
+                <div class="recipe-details-item">
+                    <div class="recipe-details-label">Prep Time:</div>
+                    <div class="recipe-details-value">1-2 hrs</div>                
+                </div>
+                <div class="recipe-details-item">
+                    <div class="recipe-details-label">Cook Time:</div>
+                    <div class="recipe-details-value">3 hrs</div>                
+                </div>
+                <div class="recipe-details-item">
+                    <div class="recipe-details-label">Total Time:</div>
+                    <div class="recipe-details-value">5 hrs</div>                
+                </div>
+                <div class="recipe-details-item">
+                    <div class="recipe-details-label">Servings:</div>
+                    <div class="recipe-details-value">4-5</div>                
+                </div>    
+            </div>
+        </div>
+            <div>
+                <h3 id="title-section" class="title ingredients">Ingredients</h3>
+                    <ul>
+                        <li>Ginger</li>
+                        <li>Garlic</li>
+                        <li>Lemon Juice</li>
+                        <li>Plain Yogurt</li>
+                        <li>Chicken</li>
+                        <li>Garam Masala</li>
+                        <li>Tumeric</li>
+                        <li>Chili Powder</li>
+                        <li>Corriander</li>
+                        <li>Salt</li>
+                        <li>Cumin</li>
+                        <li>Medium Onion</li>
+                        <li>Vegitable Oil</li>
+                        <li>Ghee</li>
+                        <li>Heavy Creme</li>
+                    </ul>
+            </div>
+    
+    <h3 id="title-section" class="title steps">Steps</h3>
         <ol>
             <li>Dice Chicken</li>
             <li>Dice Onions</li>
@@ -54,7 +75,7 @@
             <li>let cook for 30min</li>
             <li>Serve</li>
         </ol>
-    </h4>
+</div>
     <a href="recipes/chickenTikka.html">Chicken Tikka</a>
 
 </body>

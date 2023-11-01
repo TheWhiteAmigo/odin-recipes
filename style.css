@@ -1,0 +1,62 @@
+* {
+    /* background-color: #121212; */
+    color: #000000;
+    box-sizing: border-box;
+
+}
+div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    border: 5px solid rgb(56, 56, 56);
+    padding: 10px;
+    text-align: center
+}
+
+#article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#recipe-details {
+    background-color: #cccccc;
+    padding: 1.5rem;
+    margin: 3rem;
+    width: 500px;
+    
+}
+
+#recipe-details-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 3rem;
+    
+}
+
+#tikka-description {
+    /*margin-left: 500px;
+    margin-right: 500px; 
+    min-width: 50%;
+    max-width: 75%;
+    text-align: center;*/
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-details-label {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-underline-offset: 0.25rem;
+    font-weight: bold;
+}
+
